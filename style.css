@@ -1,0 +1,142 @@
+/* Whole page */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222222;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero section */
+
+#hero {
+    background-image: url(saka\ picture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    padding: 80px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+/* Book button */
+
+#book {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+
+/* About section */
+
+#about {
+    border: 2px solid #222222;
+    display: flow-root;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#about img {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+
+
+/* Event details */
+
+#event {
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+
+/* Schedule */
+
+.timetable {
+    height: 200px;
+    overflow: auto;
+    border-left: 5px solid gold;
+    padding: 15px;
+}
+
+
+/* Tickets */
+
+#tickets {
+    text-align: center;
+    padding: 20px;
+}
+
+.ticket {
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.badge {
+    background-color: hsl(45, 100%, 50%);
+    color: #222222;
+    padding: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
