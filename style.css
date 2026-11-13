@@ -1,4 +1,4 @@
-/* Whole page */
+
 
 * {
     box-sizing: border-box;
@@ -11,8 +11,6 @@ body {
     color: #222222;
 }
 
-
-/* Navigation */
 
 nav {
     background-color: red;
@@ -28,11 +26,8 @@ nav a {
     text-decoration: none;
 }
 
-
-/* Hero section */
-
 #hero {
-    background-image: url(saka\ picture.png);
+    background-image: url("image folder/saka picture.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,18 +45,6 @@ h1 {
 }
 
 
-/* Book button */
-
-#book {
-    background-color: red;
-    color: white;
-    padding: 12px;
-    text-decoration: none;
-}
-
-
-/* About section */
-
 #about {
     border: 2px solid #222222;
     display: flow-root;
@@ -76,8 +59,6 @@ h1 {
     margin-right: 20px;
 }
 
-
-/* Event details */
 
 #event {
     text-align: center;
@@ -96,8 +77,6 @@ h1 {
 }
 
 
-/* Schedule */
-
 .timetable {
     height: 200px;
     overflow: auto;
@@ -105,8 +84,6 @@ h1 {
     padding: 15px;
 }
 
-
-/* Tickets */
 
 #tickets {
     text-align: center;
@@ -123,19 +100,36 @@ h1 {
     box-shadow: 2px 2px 5px grey;
     text-align: center;
     background-color: rgb(255, 255, 255);
+    position: relative;
 }
 
 .badge {
     background-color: hsl(45, 100%, 50%);
     color: #222222;
     padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
+.coming-soon {
+    visibility: hidden;
 
-/* Footer */
+}
+
+#book {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
 
 footer {
-    background-color: red;
+    background-color: #222222;
     color: white;
     padding: 15px;
     text-align: center;
